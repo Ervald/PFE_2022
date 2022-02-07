@@ -5,20 +5,18 @@ export PATH=${ANTSPATH}:$PATH
 
 M=60 #Nombre de segmentations effectuée
 N=60 #Indice de la segmentation malf
-QuickSeg=true
+QuickSeg=true #mesures pour les segmentations rapides
 
-if QuickSeg=true #type de segmentation
+cd ../ #Si on place le scrs le dossier script plutôt qu'à la racine de 7TAMIbrainipt dans le dossier script plutôt qu'à la racine de 7TAMIbrain
+
+if QuickSeg=true
 then
-  o=_QUICK
-  speed=Quick
+  speed=QUICK
 else
-  o=''
-  speed=Slow
+  speed=SLOW
 fi
 
-cd ../ #Si on place le script dans le dossier script plutôt qu'à la racine de 7TAMIbrain
-
-for i in $(seq -f "%03g" 5 $M)
+for i in $(seq -f "%03g" 1 $M)
 do 
-  LabelOverlapMeasures 3 ./derivatives/fusion/sub-${i}/malf_atlas${N}Labels.nii.gz ../derivatives/atlases/sub-${i}/ses-1/sub-${i}_ses-1_7TAMI_DGN.nii.gz /metrics/sub-${i}/sub-${i}_metrics_AtlasTo${speed}
+  LabelOverlapMeasures 3 ./derivatives/fusion/sub-${i}/malf_atlas${N}_${o}_Labels.nii.gz ../derivatives/atlases/sub-${i}/ses-1/sub-${i}_ses-1_7TAMI_DGN.nii.gz /metrics/sub-${i}/sub-${i}_metrics_AtlasTo${speed}
 done
