@@ -16,7 +16,10 @@ else
   speed=SLOW
 fi
 
-for i in $(seq -f "%03g" 1 $M)
+mkdir metrics
+for i in $(seq -f "%03g" 2 $M)
 do 
-  LabelOverlapMeasures 3 ./derivatives/fusion/sub-${i}/malf_atlas${N}_${speed}_Labels.nii.gz ../derivatives/atlases/sub-${i}/ses-1/sub-${i}_ses-1_7TAMI_DGN.nii.gz /metrics/sub-${i}/sub-${i}_metrics_AtlasTo${speed}
+  LabelOverlapMeasures 3 ./derivatives/fusion/sub-${i}/malf_atlas${N}_${speed}_Labels.nii.gz ./derivatives/atlases/sub-${i}/ses-1/sub-${i}_ses-1_7TAMI_DGN.nii.gz sub-${i}_metrics_AtlasTo${speed}
+  mkdir metrics/sub-${i}
+  mv sub-${i}_metrics_AtlasTo${speed} ./metrics/sub-${i}/
 done
