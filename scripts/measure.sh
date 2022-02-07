@@ -17,7 +17,7 @@ else
 fi
 
 mkdir metrics
-for i in $(seq -f "%03g" 2 $M)
+for i in $(seq -f "%03g" 1 $M)
 do 
   LabelOverlapMeasures 3 ./derivatives/fusion/sub-${i}/malf_atlas${N}_${speed}_Labels.nii.gz ./derivatives/atlases/sub-${i}/ses-1/sub-${i}_ses-1_7TAMI_DGN.nii.gz sub-${i}_metrics_AtlasTo${speed}
   mkdir metrics/sub-${i}
