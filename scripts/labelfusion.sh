@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 export ANTSPATH=/home/acabane/Documents/SOFTWARE/ANTs/install/bin
 export PATH=${ANTSPATH}:$PATH
