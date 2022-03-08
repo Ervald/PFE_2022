@@ -1,0 +1,451 @@
+
+--------------------------------------------------------------------------------------
+ Start JLFization
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+ Parameters
+--------------------------------------------------------------------------------------
+ ANTSPATH is /home/acabane/Documents/SOFTWARE/ANTs/install/bin
+
+ Dimensionality:           3
+ Output prefix:            derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_
+ Posteriors format:        
+ Target image:             sub-040/ses-1/anat/sub-040_ses-1_T1map.nii.gz
+ Atlas images:             sub-001/ses-1/anat/sub-001_ses-1_T1map.nii.gz sub-002/ses-1/anat/sub-002_ses-1_T1map.nii.gz sub-003/ses-1/anat/sub-003_ses-1_T1map.nii.gz sub-004/ses-1/anat/sub-004_ses-1_T1map.nii.gz sub-005/ses-1/anat/sub-005_ses-1_T1map.nii.gz sub-006/ses-1/anat/sub-006_ses-1_T1map.nii.gz sub-007/ses-1/anat/sub-007_ses-1_T1map.nii.gz sub-008/ses-1/anat/sub-008_ses-1_T1map.nii.gz sub-009/ses-1/anat/sub-009_ses-1_T1map.nii.gz sub-010/ses-1/anat/sub-010_ses-1_T1map.nii.gz sub-011/ses-1/anat/sub-011_ses-1_T1map.nii.gz sub-012/ses-1/anat/sub-012_ses-1_T1map.nii.gz sub-013/ses-1/anat/sub-013_ses-1_T1map.nii.gz sub-014/ses-1/anat/sub-014_ses-1_T1map.nii.gz sub-015/ses-1/anat/sub-015_ses-1_T1map.nii.gz sub-016/ses-1/anat/sub-016_ses-1_T1map.nii.gz sub-017/ses-1/anat/sub-017_ses-1_T1map.nii.gz sub-018/ses-1/anat/sub-018_ses-1_T1map.nii.gz sub-019/ses-1/anat/sub-019_ses-1_T1map.nii.gz sub-020/ses-1/anat/sub-020_ses-1_T1map.nii.gz sub-021/ses-1/anat/sub-021_ses-1_T1map.nii.gz sub-022/ses-1/anat/sub-022_ses-1_T1map.nii.gz sub-023/ses-1/anat/sub-023_ses-1_T1map.nii.gz sub-024/ses-1/anat/sub-024_ses-1_T1map.nii.gz sub-025/ses-1/anat/sub-025_ses-1_T1map.nii.gz sub-026/ses-1/anat/sub-026_ses-1_T1map.nii.gz sub-027/ses-1/anat/sub-027_ses-1_T1map.nii.gz sub-028/ses-1/anat/sub-028_ses-1_T1map.nii.gz sub-029/ses-1/anat/sub-029_ses-1_T1map.nii.gz sub-030/ses-1/anat/sub-030_ses-1_T1map.nii.gz sub-031/ses-1/anat/sub-031_ses-1_T1map.nii.gz sub-032/ses-1/anat/sub-032_ses-1_T1map.nii.gz sub-033/ses-1/anat/sub-033_ses-1_T1map.nii.gz sub-034/ses-1/anat/sub-034_ses-1_T1map.nii.gz sub-035/ses-1/anat/sub-035_ses-1_T1map.nii.gz sub-036/ses-1/anat/sub-036_ses-1_T1map.nii.gz sub-037/ses-1/anat/sub-037_ses-1_T1map.nii.gz sub-038/ses-1/anat/sub-038_ses-1_T1map.nii.gz sub-039/ses-1/anat/sub-039_ses-1_T1map.nii.gz sub-041/ses-1/anat/sub-041_ses-1_T1map.nii.gz sub-042/ses-1/anat/sub-042_ses-1_T1map.nii.gz sub-043/ses-1/anat/sub-043_ses-1_T1map.nii.gz sub-044/ses-1/anat/sub-044_ses-1_T1map.nii.gz sub-045/ses-1/anat/sub-045_ses-1_T1map.nii.gz sub-046/ses-1/anat/sub-046_ses-1_T1map.nii.gz sub-047/ses-1/anat/sub-047_ses-1_T1map.nii.gz sub-048/ses-1/anat/sub-048_ses-1_T1map.nii.gz sub-049/ses-1/anat/sub-049_ses-1_T1map.nii.gz sub-050/ses-1/anat/sub-050_ses-1_T1map.nii.gz sub-051/ses-1/anat/sub-051_ses-1_T1map.nii.gz sub-052/ses-1/anat/sub-052_ses-1_T1map.nii.gz sub-053/ses-1/anat/sub-053_ses-1_T1map.nii.gz sub-054/ses-1/anat/sub-054_ses-1_T1map.nii.gz sub-055/ses-1/anat/sub-055_ses-1_T1map.nii.gz sub-056/ses-1/anat/sub-056_ses-1_T1map.nii.gz sub-057/ses-1/anat/sub-057_ses-1_T1map.nii.gz sub-058/ses-1/anat/sub-058_ses-1_T1map.nii.gz sub-059/ses-1/anat/sub-059_ses-1_T1map.nii.gz sub-060/ses-1/anat/sub-060_ses-1_T1map.nii.gz
+ Atlas labels:             derivatives/atlases/sub-001/ses-1/sub-001_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-002/ses-1/sub-002_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-003/ses-1/sub-003_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-004/ses-1/sub-004_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-005/ses-1/sub-005_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-006/ses-1/sub-006_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-007/ses-1/sub-007_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-008/ses-1/sub-008_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-009/ses-1/sub-009_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-010/ses-1/sub-010_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-011/ses-1/sub-011_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-012/ses-1/sub-012_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-013/ses-1/sub-013_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-014/ses-1/sub-014_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-015/ses-1/sub-015_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-016/ses-1/sub-016_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-017/ses-1/sub-017_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-018/ses-1/sub-018_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-019/ses-1/sub-019_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-020/ses-1/sub-020_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-021/ses-1/sub-021_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-022/ses-1/sub-022_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-023/ses-1/sub-023_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-024/ses-1/sub-024_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-025/ses-1/sub-025_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-026/ses-1/sub-026_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-027/ses-1/sub-027_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-028/ses-1/sub-028_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-029/ses-1/sub-029_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-030/ses-1/sub-030_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-031/ses-1/sub-031_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-032/ses-1/sub-032_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-033/ses-1/sub-033_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-034/ses-1/sub-034_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-035/ses-1/sub-035_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-036/ses-1/sub-036_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-037/ses-1/sub-037_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-038/ses-1/sub-038_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-039/ses-1/sub-039_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-041/ses-1/sub-041_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-042/ses-1/sub-042_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-043/ses-1/sub-043_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-044/ses-1/sub-044_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-045/ses-1/sub-045_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-046/ses-1/sub-046_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-047/ses-1/sub-047_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-048/ses-1/sub-048_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-049/ses-1/sub-049_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-050/ses-1/sub-050_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-051/ses-1/sub-051_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-052/ses-1/sub-052_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-053/ses-1/sub-053_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-054/ses-1/sub-054_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-055/ses-1/sub-055_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-056/ses-1/sub-056_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-057/ses-1/sub-057_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-058/ses-1/sub-058_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-059/ses-1/sub-059_ses-1_7TAMI_DGN.nii.gz derivatives/atlases/sub-060/ses-1/sub-060_ses-1_7TAMI_DGN.nii.gz
+ Transformation:           s
+
+ Keep all images:          1
+ Processing type:          0
+ Number of cpu cores:      32
+--------------------------------------------------------------------------------------
+derivatives/fusion_warpfiles/sub-040/job_sub-001_ses-1_T1map_0.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-002_ses-1_T1map_1.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-003_ses-1_T1map_2.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-004_ses-1_T1map_3.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-005_ses-1_T1map_4.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-006_ses-1_T1map_5.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-007_ses-1_T1map_6.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-008_ses-1_T1map_7.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-009_ses-1_T1map_8.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-010_ses-1_T1map_9.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-011_ses-1_T1map_10.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-012_ses-1_T1map_11.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-013_ses-1_T1map_12.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-014_ses-1_T1map_13.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-015_ses-1_T1map_14.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-016_ses-1_T1map_15.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-017_ses-1_T1map_16.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-018_ses-1_T1map_17.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-019_ses-1_T1map_18.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-020_ses-1_T1map_19.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-021_ses-1_T1map_20.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-022_ses-1_T1map_21.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-023_ses-1_T1map_22.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-024_ses-1_T1map_23.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-025_ses-1_T1map_24.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-026_ses-1_T1map_25.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-027_ses-1_T1map_26.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-028_ses-1_T1map_27.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-029_ses-1_T1map_28.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-030_ses-1_T1map_29.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-031_ses-1_T1map_30.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-032_ses-1_T1map_31.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-033_ses-1_T1map_32.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-034_ses-1_T1map_33.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-035_ses-1_T1map_34.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-036_ses-1_T1map_35.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-037_ses-1_T1map_36.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-038_ses-1_T1map_37.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-039_ses-1_T1map_38.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-041_ses-1_T1map_39.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-042_ses-1_T1map_40.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-043_ses-1_T1map_41.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-044_ses-1_T1map_42.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-045_ses-1_T1map_43.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-046_ses-1_T1map_44.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-047_ses-1_T1map_45.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-048_ses-1_T1map_46.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-049_ses-1_T1map_47.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-050_ses-1_T1map_48.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-051_ses-1_T1map_49.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-052_ses-1_T1map_50.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-053_ses-1_T1map_51.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-054_ses-1_T1map_52.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-055_ses-1_T1map_53.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-056_ses-1_T1map_54.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-057_ses-1_T1map_55.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-058_ses-1_T1map_56.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-059_ses-1_T1map_57.sh
+derivatives/fusion_warpfiles/sub-040/job_sub-060_ses-1_T1map_58.sh
+
+--------------------------------------------------------------------------------------
+ Starting JLF
+--------------------------------------------------------------------------------------
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-001_ses-1_T1map_0_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-002_ses-1_T1map_1_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-003_ses-1_T1map_2_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-004_ses-1_T1map_3_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-005_ses-1_T1map_4_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-006_ses-1_T1map_5_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-007_ses-1_T1map_6_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-008_ses-1_T1map_7_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-009_ses-1_T1map_8_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-010_ses-1_T1map_9_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-011_ses-1_T1map_10_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-012_ses-1_T1map_11_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-013_ses-1_T1map_12_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-014_ses-1_T1map_13_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-015_ses-1_T1map_14_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-016_ses-1_T1map_15_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-017_ses-1_T1map_16_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-018_ses-1_T1map_17_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-019_ses-1_T1map_18_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-020_ses-1_T1map_19_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-021_ses-1_T1map_20_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-022_ses-1_T1map_21_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-023_ses-1_T1map_22_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-024_ses-1_T1map_23_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-025_ses-1_T1map_24_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-026_ses-1_T1map_25_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-027_ses-1_T1map_26_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-028_ses-1_T1map_27_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-029_ses-1_T1map_28_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-030_ses-1_T1map_29_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-031_ses-1_T1map_30_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-032_ses-1_T1map_31_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-033_ses-1_T1map_32_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-034_ses-1_T1map_33_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-035_ses-1_T1map_34_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-036_ses-1_T1map_35_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-037_ses-1_T1map_36_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-038_ses-1_T1map_37_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-039_ses-1_T1map_38_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-041_ses-1_T1map_39_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-042_ses-1_T1map_40_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-043_ses-1_T1map_41_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-044_ses-1_T1map_42_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-045_ses-1_T1map_43_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-046_ses-1_T1map_44_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-047_ses-1_T1map_45_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-048_ses-1_T1map_46_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-049_ses-1_T1map_47_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-050_ses-1_T1map_48_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-051_ses-1_T1map_49_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-052_ses-1_T1map_50_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-053_ses-1_T1map_51_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-054_ses-1_T1map_52_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-055_ses-1_T1map_53_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-056_ses-1_T1map_54_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-057_ses-1_T1map_55_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-058_ses-1_T1map_56_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-059_ses-1_T1map_57_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_sub-060_ses-1_T1map_58_Warped.nii.gz
+derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_JLF.sh
+ file 0.8 does not exist . 
+
+Running antsJointFusion for 3-dimensional images.
+
+Weighted averaging: *********10*********20*********30*********40*********50*********60*********70*********80*********90*********
+Reconstruction: *********10*********20*********30*********40*********50**
+
+   WeightedVotingFusionImageFilter (0x560dacf0d340)
+     RTTI typeinfo:   itk::WeightedVotingFusionImageFilter<itk::Image<float, 3u>, itk::Image<unsigned int, 3u> >
+     Reference Count: 1
+     Modified Time: 28986
+     Debug: Off
+     Object Name: 
+     Observers: 
+       ProgressEvent(Command)
+     Inputs: 
+       Primary: (0x560dacf0ece0) *
+       _1: (0x560dacf36f50)
+       _10: (0x560dc410dac0)
+       _100: (0x560e185b7580)
+       _101: (0x560e1b1390a0)
+       _102: (0x560e1f27b510)
+       _103: (0x560e2083b730)
+       _104: (0x560e233bd270)
+       _105: (0x560e25f3e550)
+       _106: (0x560e28abfb00)
+       _107: (0x560e2a07fd70)
+       _108: (0x560e2cc01200)
+       _109: (0x560e30d435c0)
+       _11: (0x560dc56ce410)
+       _110: (0x560e338c5110)
+       _111: (0x560e36446420)
+       _112: (0x560e37a06b20)
+       _113: (0x560e3bb49100)
+       _114: (0x560e3e6ca5d0)
+       _115: (0x560e3fc8a9f0)
+       _116: (0x560e43dccfc0)
+       _117: (0x560e4694dee0)
+       _118: (0x560e494cf410)
+       _119: (0x560e4aa90780)
+       _12: (0x560dc824fd30)
+       _13: (0x560dcadd1280)
+       _14: (0x560dcd9527a0)
+       _15: (0x560dd04d3c40)
+       _16: (0x560dd3055150)
+       _17: (0x560dd5bd6690)
+       _18: (0x560dd9d188f0)
+       _19: (0x560ddb2d9400)
+       _2: (0x560dacf38cd0)
+       _20: (0x560ddde5aab0)
+       _21: (0x560de09dbfc0)
+       _22: (0x560de355b880)
+       _23: (0x560de60de860)
+       _24: (0x560de8c601b0)
+       _25: (0x560deb7e16e0)
+       _26: (0x560dee362c70)
+       _27: (0x560df0ee4170)
+       _28: (0x560df3a656b0)
+       _29: (0x560df65e50b0)
+       _3: (0x560dae500830)
+       _30: (0x560df9166560)
+       _31: (0x560dfbce9730)
+       _32: (0x560dfe86ac80)
+       _33: (0x560dffe2a280)
+       _34: (0x560e029abf50)
+       _35: (0x560e06aeee70)
+       _36: (0x560e080af090)
+       _37: (0x560e0c1f2070)
+       _38: (0x560e0ed735c0)
+       _39: (0x560e118f4ad0)
+       _4: (0x560db3c05440)
+       _40: (0x560e14475f80)
+       _41: (0x560e15a35e00)
+       _42: (0x560e19b78910)
+       _43: (0x560e1c6f8920)
+       _44: (0x560e1f27b140)
+       _45: (0x560e21dfcad0)
+       _46: (0x560e233bcda0)
+       _47: (0x560e274ff4c0)
+       _48: (0x560e2a080a80)
+       _49: (0x560e2cc01fa0)
+       _5: (0x560db6786cb0)
+       _50: (0x560e2f783490)
+       _51: (0x560e32304990)
+       _52: (0x560e34e85e90)
+       _53: (0x560e37a073d0)
+       _54: (0x560e3a588920)
+       _55: (0x560e3d109e50)
+       _56: (0x560e3e6c9b70)
+       _57: (0x560e4280c840)
+       _58: (0x560e4538dd40)
+       _59: (0x560e47f0f260)
+       _6: (0x560db6785b10)
+       _60: (0x560dacf407e0)
+       _61: (0x560dacf3efc0)
+       _62: (0x560db1082280)
+       _63: (0x560db3c041f0)
+       _64: (0x560db6784ca0)
+       _65: (0x560dba8c6e90)
+       _66: (0x560dbd4483a0)
+       _67: (0x560dbffcb3a0)
+       _68: (0x560dc2b4bb10)
+       _69: (0x560dc56ce710)
+       _7: (0x560dbbe89790)
+       _70: (0x560db7d458e0)
+       _71: (0x560dc980ff80)
+       _72: (0x560dcc3913f0)
+       _73: (0x560dcef12950)
+       _74: (0x560dd04d2000)
+       _75: (0x560dd46153c0)
+       _76: (0x560dd5bd5920)
+       _77: (0x560dd7196290)
+       _78: (0x560ddc899d80)
+       _79: (0x560ddde58d50)
+       _8: (0x560dbea08f60)
+       _80: (0x560de1f9c230)
+       _81: (0x560de60debf0)
+       _82: (0x560de769f460)
+       _83: (0x560dea220400)
+       _84: (0x560deb7dfb50)
+       _85: (0x560def923480)
+       _86: (0x560df0ee2610)
+       _87: (0x560df5025940)
+       _88: (0x560df7ba76a0)
+       _89: (0x560dfbce9ab0)
+       _9: (0x560dc158c260)
+       _90: (0x560dfbce7da0)
+       _91: (0x560dfe869600)
+       _92: (0x560e013eabe0)
+       _93: (0x560e06aef130)
+       _94: (0x560e080afe00)
+       _95: (0x560e0ac31340)
+       _96: (0x560e0d7b2680)
+       _97: (0x560e10333b90)
+       _98: (0x560e12eb4c40)
+       _99: (0x560e15a36740)
+     Indexed Inputs: 
+       0: Primary (0x560dacf0ece0)
+       1: _1 (0x560dacf36f50)
+       2: _2 (0x560dacf38cd0)
+       3: _3 (0x560dae500830)
+       4: _4 (0x560db3c05440)
+       5: _5 (0x560db6786cb0)
+       6: _6 (0x560db6785b10)
+       7: _7 (0x560dbbe89790)
+       8: _8 (0x560dbea08f60)
+       9: _9 (0x560dc158c260)
+       10: _10 (0x560dc410dac0)
+       11: _11 (0x560dc56ce410)
+       12: _12 (0x560dc824fd30)
+       13: _13 (0x560dcadd1280)
+       14: _14 (0x560dcd9527a0)
+       15: _15 (0x560dd04d3c40)
+       16: _16 (0x560dd3055150)
+       17: _17 (0x560dd5bd6690)
+       18: _18 (0x560dd9d188f0)
+       19: _19 (0x560ddb2d9400)
+       20: _20 (0x560ddde5aab0)
+       21: _21 (0x560de09dbfc0)
+       22: _22 (0x560de355b880)
+       23: _23 (0x560de60de860)
+       24: _24 (0x560de8c601b0)
+       25: _25 (0x560deb7e16e0)
+       26: _26 (0x560dee362c70)
+       27: _27 (0x560df0ee4170)
+       28: _28 (0x560df3a656b0)
+       29: _29 (0x560df65e50b0)
+       30: _30 (0x560df9166560)
+       31: _31 (0x560dfbce9730)
+       32: _32 (0x560dfe86ac80)
+       33: _33 (0x560dffe2a280)
+       34: _34 (0x560e029abf50)
+       35: _35 (0x560e06aeee70)
+       36: _36 (0x560e080af090)
+       37: _37 (0x560e0c1f2070)
+       38: _38 (0x560e0ed735c0)
+       39: _39 (0x560e118f4ad0)
+       40: _40 (0x560e14475f80)
+       41: _41 (0x560e15a35e00)
+       42: _42 (0x560e19b78910)
+       43: _43 (0x560e1c6f8920)
+       44: _44 (0x560e1f27b140)
+       45: _45 (0x560e21dfcad0)
+       46: _46 (0x560e233bcda0)
+       47: _47 (0x560e274ff4c0)
+       48: _48 (0x560e2a080a80)
+       49: _49 (0x560e2cc01fa0)
+       50: _50 (0x560e2f783490)
+       51: _51 (0x560e32304990)
+       52: _52 (0x560e34e85e90)
+       53: _53 (0x560e37a073d0)
+       54: _54 (0x560e3a588920)
+       55: _55 (0x560e3d109e50)
+       56: _56 (0x560e3e6c9b70)
+       57: _57 (0x560e4280c840)
+       58: _58 (0x560e4538dd40)
+       59: _59 (0x560e47f0f260)
+       60: _60 (0x560dacf407e0)
+       61: _61 (0x560dacf3efc0)
+       62: _62 (0x560db1082280)
+       63: _63 (0x560db3c041f0)
+       64: _64 (0x560db6784ca0)
+       65: _65 (0x560dba8c6e90)
+       66: _66 (0x560dbd4483a0)
+       67: _67 (0x560dbffcb3a0)
+       68: _68 (0x560dc2b4bb10)
+       69: _69 (0x560dc56ce710)
+       70: _70 (0x560db7d458e0)
+       71: _71 (0x560dc980ff80)
+       72: _72 (0x560dcc3913f0)
+       73: _73 (0x560dcef12950)
+       74: _74 (0x560dd04d2000)
+       75: _75 (0x560dd46153c0)
+       76: _76 (0x560dd5bd5920)
+       77: _77 (0x560dd7196290)
+       78: _78 (0x560ddc899d80)
+       79: _79 (0x560ddde58d50)
+       80: _80 (0x560de1f9c230)
+       81: _81 (0x560de60debf0)
+       82: _82 (0x560de769f460)
+       83: _83 (0x560dea220400)
+       84: _84 (0x560deb7dfb50)
+       85: _85 (0x560def923480)
+       86: _86 (0x560df0ee2610)
+       87: _87 (0x560df5025940)
+       88: _88 (0x560df7ba76a0)
+       89: _89 (0x560dfbce9ab0)
+       90: _90 (0x560dfbce7da0)
+       91: _91 (0x560dfe869600)
+       92: _92 (0x560e013eabe0)
+       93: _93 (0x560e06aef130)
+       94: _94 (0x560e080afe00)
+       95: _95 (0x560e0ac31340)
+       96: _96 (0x560e0d7b2680)
+       97: _97 (0x560e10333b90)
+       98: _98 (0x560e12eb4c40)
+       99: _99 (0x560e15a36740)
+       100: _100 (0x560e185b7580)
+       101: _101 (0x560e1b1390a0)
+       102: _102 (0x560e1f27b510)
+       103: _103 (0x560e2083b730)
+       104: _104 (0x560e233bd270)
+       105: _105 (0x560e25f3e550)
+       106: _106 (0x560e28abfb00)
+       107: _107 (0x560e2a07fd70)
+       108: _108 (0x560e2cc01200)
+       109: _109 (0x560e30d435c0)
+       110: _110 (0x560e338c5110)
+       111: _111 (0x560e36446420)
+       112: _112 (0x560e37a06b20)
+       113: _113 (0x560e3bb49100)
+       114: _114 (0x560e3e6ca5d0)
+       115: _115 (0x560e3fc8a9f0)
+       116: _116 (0x560e43dccfc0)
+       117: _117 (0x560e4694dee0)
+       118: _118 (0x560e494cf410)
+       119: _119 (0x560e4aa90780)
+     Required Input Names: Primary
+     NumberOfRequiredInputs: 1
+     Outputs: 
+       Primary: (0x560dacf0e6c0)
+     Indexed Outputs: 
+       0: Primary (0x560dacf0e6c0)
+     NumberOfRequiredOutputs: 1
+     Number Of Work Units: 96
+     ReleaseDataFlag: Off
+     ReleaseDataBeforeUpdateFlag: Off
+     AbortGenerateData: Off
+     Progress: 1
+     Multithreader: 
+       RTTI typeinfo:   itk::PoolMultiThreader
+       Reference Count: 1
+       Modified Time: 740
+       Debug: Off
+       Object Name: 
+       Observers: 
+         none
+       Number of Work Units: 96
+       Number of Threads: 24
+       Global Maximum Number Of Threads: 128
+       Global Default Number Of Threads: 24
+       Global Default Threader Type: itk::MultiThreaderBaseEnums::Threader::Pool
+       SingleMethod: 1
+       SingleData: 0x7ffff7c443c0
+     DynamicMultiThreading: On
+     CoordinateTolerance: 1e-06
+     DirectionTolerance: 1e-06
+Using Pearson correlation to measure the patch similarity.
+     Neighborhood search radius = [3, 3, 3]
+     Neighborhood patch radius = [2, 2, 2]
+Number of atlases = 59
+Number of atlas segmentations = 59
+Number of atlas modalities = 1
+Alpha = 0.1
+Beta = 2
+Label set: 0 1 2 3 4 5 6 7 9 10 11 12 14 15 16 17 18 19 20 26 27 28 29 30 31 51 52 53 54 55 56 57 59 60 61 62 64 65 66 67 68 69 70 76 77 78 79 80 81 
+
+Writing output:
+  Writing intensity fusion image (modality 1)
+Elapsed time: 520.366
+
+--------------------------------------------------------------------------------------
+ Done creating: derivatives/fusion_warpfiles/sub-040/sub-040_malf_atlas60_QUICK_Labels.nii.gz
+ Script executed in 5228 seconds
+ 1h 27m 8s
+--------------------------------------------------------------------------------------
